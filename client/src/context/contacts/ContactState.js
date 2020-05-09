@@ -64,6 +64,9 @@ const ContactState = (props) => {
   };
 
   // Update Contact
+  const updateContact = (contact) => {
+    dispatch({ type: UPDATE_CONTACT, payload: contact });
+  };
 
   // Filter Contacts
 
@@ -74,6 +77,7 @@ const ContactState = (props) => {
       value={{
         contacts: state.contacts,
         addContact,
+        updateContact,
         deleteContact,
         current: state.current,
         setCurrent,
