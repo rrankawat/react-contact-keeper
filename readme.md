@@ -16,7 +16,7 @@
 - nodemon: It allow us to keep watching server
 - concurrently: It allow us to run backend and the frontend react at the same time
 
-# Client Dependencies
+## Client Dependencies
 
 - axios: To request api's
 - react-router-dom: Http router
